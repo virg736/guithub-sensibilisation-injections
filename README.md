@@ -157,15 +157,23 @@ Captures d’écran
 ---
 
 
-
-
 L’injection détectée
 
 Le log SQLite
 
 La réponse utilisateur
 
+### 1. Lancement du script et détection d’injection
+<img src="sql-logger1.PNG" alt="Lancement script logger" width="700"/>
 
+### 2. Terminal : saisie d’un utilisateur malveillant
+<img src="sql-logger2.PNG" alt="Tentative injection" width="700"/>
+
+### 3. Réponse neutre et détection affichée
+<img src="sql-logger3.PNG" alt="Détection affichée" width="700"/>
+
+### 4. Logs des tentatives enregistrés en base
+<img src="sql-logger4.PNG" alt="Logs SQL enregistrés" width="700"/>
 
 
 
