@@ -75,3 +75,96 @@ Requête générée (non sécurisée) :
 
 ```sql
 SELECT * FROM users WHERE username='admin' --' AND password='...';
+
+
+Script de protection intégré
+
+
+✅ Le script Python (fourni dans ce dépôt) :
+
+Bloque les requêtes malicieuses
+
+Détecte les patterns connus (' OR 1=1, <script>, --, etc.)
+
+Enregistre les tentatives (IP, timestamp, champ, valeur)
+
+Fournit un message neutre : “Identifiants invalides”
+
+
+
+💡 Le script est réel, opérationnel, basé sur des requêtes préparées SQLite.
+
+
+
+📌 Ce script n’est pas adapté à un usage en production.
+
+En environnement réel, privilégier :
+
+Des frameworks sécurisés
+
+Des mécanismes d’authentification robustes
+
+Un système de journalisation centralisé
+
+Un IDS (Intrusion Detection System)
+
+Prérequis
+Python 3.7+
+
+SQLite (intégré à Python)
+
+Terminal ou IDE (VSCode, etc.)
+
+Environnement isolé ou VM recommandé
+
+Captures d’écran
+
+
+📌 Tu peux ajouter ici des captures pour illustrer :
+
+L’injection détectée
+
+Le log SQLite
+
+La réponse utilisateur
+
+
+
+![Exécution du script](./images/execution.png)
+![Tentative bloquée](./images/bloque.png)
+![Base SQLite](./images/sqlite.png)
+
+
+
+Licence
+
+
+Le script est publié sous la licence MIT.
+
+À propos de l’usage
+
+
+Ce projet est destiné exclusivement à des fins pédagogiques :
+
+Formations en cybersécurité
+
+Tests d’intrusion légaux (pentests)
+
+Analyse ou audit en environnement contrôlé
+
+
+
+L’auteure ne cautionne ni n’autorise l’usage en dehors d’un cadre légal strictement défini.
+
+Toute utilisation non conforme est interdite et relève de la responsabilité exclusive de l’utilisateur.
+
+Droits sur les visuels
+
+
+Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’auteure.
+
+Toute reproduction ou réutilisation sans autorisation préalable est interdite.
+
+
+
+© 2025 Virginie Lechene — Tous droits réservés.
