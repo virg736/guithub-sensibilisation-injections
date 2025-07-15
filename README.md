@@ -123,36 +123,23 @@ SELECT * FROM users WHERE username='admin' --' AND password='...';
 ---
 
 
-
-💡 Le script est réel, opérationnel, basé sur des requêtes préparées SQLite.
-
----
-
-
-
 📌 Ce script n’est pas adapté à un usage en production.
 
 En environnement réel, privilégier :
 
-Des frameworks sécurisés
+- Des frameworks sécurisés
+- Des mécanismes d’authentification robustes
+- Un système de journalisation centralisé
+- Un IDS (Intrusion Detection System)
 
-Des mécanismes d’authentification robustes
+---
 
-Un système de journalisation centralisé
+### Prérequis
 
-Un IDS (Intrusion Detection System)
-
-Prérequis
-Python 3.7+
-
-SQLite (intégré à Python)
-
-Terminal ou IDE (VSCode, etc.)
-
-Environnement isolé ou VM recommandé
-
-Captures d’écran
-
+- Python 3.7+
+- SQLite (intégré à Python)
+- Terminal ou IDE (VSCode, etc.)
+- Environnement isolé ou VM recommandée
 
 
 ---
