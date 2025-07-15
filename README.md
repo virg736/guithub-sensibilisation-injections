@@ -1,4 +1,4 @@
-# Sensibilisation aux Injections SQL, XSS, etc.
+# Sensibilisation aux injections SQL, XSS, etc.
 
 <p align="center">
 <img src="sql.JPEG" alt="Illustration SQL Injection" width="600"/>
