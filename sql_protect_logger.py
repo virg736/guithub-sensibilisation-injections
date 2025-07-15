@@ -14,8 +14,8 @@ print("❌ Identifiants invalides.")
 cur.execute("SELECT * FROM logs")
 logs = cur.fetchall()
 if logs:
-print("\n📌 Logs de tentatives détectées :")
+print("\n🚨 Logs de tentatives détectées :")
 for log in logs:
-print(f" → [{log[3]}] | IP: {log[1]} | User: {log[2]} | Payload: {log[4]}")
+print(f"📌 IP: {log[3]} | User: {log[2]} | Payload: {log[4]}")
 
 conn.close()
