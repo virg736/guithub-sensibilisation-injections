@@ -26,10 +26,6 @@ Reproduction interdite sans autorisation préalable.
 > Exemples réels (simulés) et protections intégrées.
 
 
-
-Script Python pédagogique pour détecter et bloquer des tentatives d'injection.
-Exemples réels (simulés) et protections intégrées.
-
 ---
 
 ## Sommaire
