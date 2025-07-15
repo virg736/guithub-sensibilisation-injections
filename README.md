@@ -1,84 +1,77 @@
-# 🛡️ Sensibilisation aux Injections SQL & XSS – Projet éducatif Python
+# Sensibilisation aux Injections SQL, XSS, etc.
 
+Script Python pédagogique pour détecter et bloquer des tentatives d'injection.
+Exemples réels (simulés) et protections intégrées.
 
-📑 Sommaire :
-- [Avertissement](#avertissement)
-- [Objectif](#objectif)
-- [Fonctionnement du script](#fonctionnement-du-script)
-- [Captures d’écran](#captures-décran)
-- [Exemples d'injection](#exemples-dinjection)
-- [Protection intégrée](#protection-intégrée)
-- [Limitations & Bonnes pratiques](#limitations--bonnes-pratiques)
-- [Licence](#licence)
+---
 
-Sections recommandées :
+## Sommaire
 
+- Avertissement
+- Objectif
+- Fonctionnement global
+- Cas d’usage
+- Exemples d’injection
+- Script de protection intégré
+- Prérequis
+- Captures d’écran
+- Licence
+- À propos de l’usage
+- Droits sur les visuels
 
-✋ Avertissement
+---
 
+## Avertissement
 
-🛑 Usage strictement pédagogique
-Ce projet est conçu à des fins de démonstration. L’auteure décline toute responsabilité en cas d’usage malveillant.
-🎯 Objectif
+Usage strictement pédagogique.
+L’auteure décline toute responsabilité en cas d’utilisation malveillante ou illégale.
 
+---
 
-Fournir un exemple clair d’injections SQL/XSS et de leur détection, pour :
-Sensibiliser aux attaques web
-Montrer l’impact en environnement simulé
-Fournir un script Python avec détection d’injections
-⚙️ Fonctionnement du script
+## Objectif
 
+Fournir une méthode simple pour :
 
-Le script Python utilise :
-Requêtes préparées
-Hachage SHA-256 des mots de passe
-Détection de patterns d’injection (' OR 1=1, <script>, etc.)
-Journalisation des tentatives malveillantes dans une base SQLite
+- Comprendre les risques liés aux injections (SQL, XSS, etc.)
+- Identifier les vecteurs d’attaque classiques
+- Expérimenter un script Python de protection
+- Sensibiliser dans un cadre légal et sécurisé
 
+---
 
-💣 Exemples d’injection
-- URL : `http://site.com/page?id=1' OR '1'='1`
-- Formulaire :
-Nom d'utilisateur : `admin' --`
-Mot de passe : *(vide)*
-→ Résultat : contournement de l’authentification
+## Fonctionnement global
 
-**Requête simulée :**
+- Le script intercepte les saisies utilisateurs
+- Détecte les schémas malveillants (via regex et blacklist)
+- Enregistre les tentatives dans une base SQLite
+- Fournit un retour neutre type “Identifiants invalides”
+- Ne divulgue aucune information technique en cas d’échec
+
+---
+
+## Cas d’usage
+
+Ce script peut être utilisé dans le cadre :
+
+- de démonstrations pédagogiques
+- de formations en cybersécurité
+- d’exercices de sensibilisation
+- d’expérimentations en environnements fermés
+
+---
+
+## Exemples d’injection
+
+🔹 **Exemple 1** :
+URL avec injection SQL simulée
+`https://site.com/page?id=1' OR '1'='1 --`
+
+🔹 **Exemple 2** :
+Formulaire de connexion
+- Nom d'utilisateur : `admin' --`
+- Mot de passe : *(vide)*
+
+Requête générée (non sécurisée) :
+
 ```sql
-SELECT * FROM users WHERE username='admin' -- ' AND password='...';
-
-
-
-#### 🛡️ Protection intégrée
-
-> ✅ Le script bloque automatiquement :
-> - Les requêtes malicieuses
-> - Enregistre les tentatives
-> - Fournit un retour utilisateur neutre : *“Identifiants invalides”*
-
-
-#### ⚠️ Limitations & Bonnes pratiques
-
-> 🚫 Ce script **n’est pas adapté à un environnement de production**.
-
-🔐 En entreprise, il faut :
-- Utiliser un **framework sécurisé** (Django, Flask...)
-- Appliquer des politiques MFA + rate limiting
-- Centraliser les logs
-- Activer un WAF ou IDS
-
-
-
-#### 📜 Licence
-
-```markdown
-© 2025 Virginie Lechene – Tous droits réservés
-Reproduction interdite sans autorisation.
-Usage pédagogique uniquement.
-
-
-
-
-
-
-
+SELECT * FROM users WHERE username='admin' --' AND password='...';
