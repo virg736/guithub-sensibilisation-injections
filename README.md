@@ -196,18 +196,13 @@ Toute utilisation non conforme est interdite et relève de la responsabilité ex
 
 ---
 
-
-L’auteure ne cautionne ni n’autorise l’usage en dehors d’un cadre légal strictement défini.
-
-Toute utilisation non conforme est interdite et relève de la responsabilité exclusive de l’utilisateur.
-
-Droits sur les visuels
+🎨 Droits sur les visuels
 
 
-Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’auteure.
+Les visuels, illustrations ou captures présents dans ce dépôt sont la propriété exclusive de l’autrice.
 
 Toute reproduction ou réutilisation sans autorisation préalable est interdite.
 
 
 
-© 2025 Virginie Lechene — Tous droits réservés.
+© 2025 Virginie Lechene – Tous droits réservés.
