@@ -28,9 +28,8 @@ Reproduction interdite sans autorisation préalable.
 
 ---
 
-# Sommaire
-
-- [Avertissement](#avertissement)
+## 📑 Sommaire
+- [Avertissement](#🛑-avertissement)
 - [Objectif](#objectif)
 - [Fonctionnement global](#fonctionnement-global)
 - [Cas d’usage](#cas-dusage)
@@ -38,9 +37,9 @@ Reproduction interdite sans autorisation préalable.
 - [Script de protection intégré](#script-de-protection-intégré)
 - [Prérequis](#prérequis)
 - [Captures d’écran](#captures-décran)
-- [Licence](#licence)
-- [À propos de l’usage](#à-propos-de-lusage)
-- [Droits sur les visuels](#droits-sur-les-visuels)
+- [Licence](#📄-licence)
+- [À propos de l’usage](#ℹ️-à-propos-de-lusage)
+- [Droits sur les visuels](#🎨-droits-sur-les-visuels)
 
 
 ---
