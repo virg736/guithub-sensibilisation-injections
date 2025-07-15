@@ -168,13 +168,11 @@ La réponse utilisateur
 
 ---
 
-
-Licence
+📄 Licence
 
 
 Le script est publié sous la licence MIT.
 
-À propos de l’usage
 
 ---
 
