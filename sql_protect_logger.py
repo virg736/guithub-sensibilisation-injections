@@ -6,16 +6,17 @@ cur.execute("SELECT * FROM users WHERE username = ? AND password_hash = ?", (use
 user = cur.fetchone()
 
 if user:
-print("✅ Connexion réussie.")
+    print("✅ Connexion réussie.")
 else:
-print("❌ Identifiants invalides.")
+    print("❌ Identifiants invalides.")
 
 # Logs de détection
 cur.execute("SELECT * FROM logs")
 logs = cur.fetchall()
+
 if logs:
-print("\n🚨 Logs de tentatives détectées :")
-for log in logs:
-print(f"📌 IP: {log[3]} | User: {log[2]} | Payload: {log[4]}")
+    print("\n🚨 Logs de tentatives détectées :")
+    for log in logs:
+        print(f"IP: {log[1]} | User: {log[2]} | Payload: {log[4]}")
 
 conn.close()
