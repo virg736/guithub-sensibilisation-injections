@@ -90,9 +90,13 @@ Enregistre les tentatives (IP, timestamp, champ, valeur)
 
 Fournit un message neutre : “Identifiants invalides”
 
+---
+
 
 
 💡 Le script est réel, opérationnel, basé sur des requêtes préparées SQLite.
+
+---
 
 
 
@@ -120,6 +124,10 @@ Environnement isolé ou VM recommandé
 Captures d’écran
 
 
+
+---
+
+
 📌 Tu peux ajouter ici des captures pour illustrer :
 
 L’injection détectée
@@ -134,6 +142,7 @@ La réponse utilisateur
 ![Tentative bloquée](./images/bloque.png)
 ![Base SQLite](./images/sqlite.png)
 
+---
 
 
 Licence
@@ -143,6 +152,7 @@ Le script est publié sous la licence MIT.
 
 À propos de l’usage
 
+---
 
 Ce projet est destiné exclusivement à des fins pédagogiques :
 
@@ -152,6 +162,7 @@ Tests d’intrusion légaux (pentests)
 
 Analyse ou audit en environnement contrôlé
 
+---
 
 
 L’auteure ne cautionne ni n’autorise l’usage en dehors d’un cadre légal strictement défini.
