@@ -2,7 +2,8 @@
 # Sensibilisation aux injections SQL, XSS, etc.
 
 ![Lint Check](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml/badge.svg)
-![release](https://img.shields.io/badge/release-v1.0.0-blue)
+![version](https://img.shields.io/badge/version-v1.0-blue)
+
 
 ![Image](./sqlJPEG)
 
