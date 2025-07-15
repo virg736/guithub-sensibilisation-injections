@@ -48,7 +48,6 @@ Mot de passe : *(vide)*
 SELECT * FROM users WHERE username='admin' -- ' AND password='...';
 
 
----
 
 #### 🛡️ Protection intégrée
 
@@ -57,7 +56,6 @@ SELECT * FROM users WHERE username='admin' -- ' AND password='...';
 > - Enregistre les tentatives
 > - Fournit un retour utilisateur neutre : *“Identifiants invalides”*
 
----
 
 #### ⚠️ Limitations & Bonnes pratiques
 
@@ -69,7 +67,7 @@ SELECT * FROM users WHERE username='admin' -- ' AND password='...';
 - Centraliser les logs
 - Activer un WAF ou IDS
 
----
+
 
 #### 📜 Licence
 
