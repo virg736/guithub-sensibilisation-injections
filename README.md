@@ -73,8 +73,10 @@ Formulaire de connexion
 
 Requête générée (non sécurisée) :
 
-```sql
+sql
 SELECT * FROM users WHERE username='admin' --' AND password='...';
+
+---
 
 
 Script de protection intégré
