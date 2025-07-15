@@ -28,19 +28,28 @@ Reproduction interdite sans autorisation préalable.
 
 ---
 
-## Sommaire
+Sommaire
+Avertissement
 
-- Avertissement
-- Objectif
-- Fonctionnement global
-- Cas d’usage
-- Exemples d’injection
-- Script de protection intégré
-- Prérequis
-- Captures d’écran
-- Licence
-- À propos de l’usage
-- Droits sur les visuels
+Objectif
+
+Fonctionnement global
+
+Cas d’usage
+
+Exemples d’injection
+
+Script de protection intégré
+
+Prérequis
+
+Captures d’écran
+
+Licence
+
+À propos de l’usage
+
+Droits sur les visuels
 
 ---
 
