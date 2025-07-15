@@ -1,110 +1,84 @@
-# guithub-sensibilisation-injections
+# 🛡️ Sensibilisation aux Injections SQL & XSS – Projet éducatif Python
 
-# 🛡️ Sensibilisation aux injections SQL
 
----
+📑 Sommaire :
+- [Avertissement](#avertissement)
+- [Objectif](#objectif)
+- [Fonctionnement du script](#fonctionnement-du-script)
+- [Captures d’écran](#captures-décran)
+- [Exemples d'injection](#exemples-dinjection)
+- [Protection intégrée](#protection-intégrée)
+- [Limitations & Bonnes pratiques](#limitations--bonnes-pratiques)
+- [Licence](#licence)
 
-## ⚠️ À propos
+Sections recommandées :
 
-Ce projet vise à **sensibiliser aux failles d’injection** (notamment SQL), en expliquant les risques, les vecteurs d’attaque, et en présentant un **script de protection fonctionnel écrit en Python**.
 
-> ⚠️ **Les exemples d’injection sont fictifs ou neutralisés.**
->
-> ✅ **Le script de protection, lui, est réel et opérationnel** — il utilise de vraies requêtes préparées, un hachage sécurisé, et une détection de patterns d’injection.
+✋ Avertissement
 
----
 
-## 🎯 Objectif
+🛑 Usage strictement pédagogique
+Ce projet est conçu à des fins de démonstration. L’auteure décline toute responsabilité en cas d’usage malveillant.
+🎯 Objectif
 
-Proposer un **exemple fonctionnel de protection contre les injections**, avec :
-- un script Python réel et exécutable
-- un système de détection de payloads malveillants
-- une base de données SQLite simulée
-- des logs pour analyser les tentatives
 
-Ce projet est idéal pour :
-- les formations en cybersécurité
-- les démonstrations d’audit applicatif
-- les étudiants ou passionnés de sécurité
+Fournir un exemple clair d’injections SQL/XSS et de leur détection, pour :
+Sensibiliser aux attaques web
+Montrer l’impact en environnement simulé
+Fournir un script Python avec détection d’injections
+⚙️ Fonctionnement du script
 
----
 
-## 🔎 Qu’est-ce qu’une injection ?
+Le script Python utilise :
+Requêtes préparées
+Hachage SHA-256 des mots de passe
+Détection de patterns d’injection (' OR 1=1, <script>, etc.)
+Journalisation des tentatives malveillantes dans une base SQLite
 
-Une injection est une faille qui permet à un attaquant d’introduire du **code externe non filtré** dans une requête exécutée par l’application (ex : SQL, HTML, système…).
 
-Elle peut entraîner :
-- Vol de données
-- Contournement d’authentification
--  Modification ou suppression de données
-- ⚠️ Prise de contrôle d’un système
-
----
-
-##  Types d’injection présentés
-
-| Type | Description |
-|---------------------|----------------------------------------------|
-| **SQL Injection** | Code SQL injecté dans une requête |
-| **XSS** | HTML ou JS injecté dans une page web |
-| **Command Injection** | Commandes système exécutées via une entrée |
-| **LDAP Injection** | Requête LDAP manipulée |
-| **Header Injection**| En-têtes HTTP corrompus |
-
----
-
-## 📍 Où les injections peuvent-elles se produire ?
-
-- Paramètres GET (`?id=1`)
-- Champs de formulaire (`login`, `search`, etc.)
-- Cookies (`session=...`)
-- En-têtes HTTP (`User-Agent`, `Referer`)
-- Corps de requêtes POST
-- Interfaces non protégées
-
----
-
-##  Exemples d’injection fictive
-
-Exemple 1 – URL
-``https://site.com/page?id=1' OR '1'='1 --``
-
-Exemple 2 – Formulaire de login
+💣 Exemples d’injection
+- URL : `http://site.com/page?id=1' OR '1'='1`
+- Formulaire :
 Nom d'utilisateur : `admin' --`
 Mot de passe : *(vide)*
+→ Résultat : contournement de l’authentification
 
-Requête générée :
+**Requête simulée :**
 ```sql
-SELECT * FROM users WHERE username='admin' --' AND password='...';
+SELECT * FROM users WHERE username='admin' -- ' AND password='...';
 
 
-# Limitations
+---
+
+#### 🛡️ Protection intégrée
+
+> ✅ Le script bloque automatiquement :
+> - Les requêtes malicieuses
+> - Enregistre les tentatives
+> - Fournit un retour utilisateur neutre : *“Identifiants invalides”*
+
+---
+
+#### ⚠️ Limitations & Bonnes pratiques
+
+> 🚫 Ce script **n’est pas adapté à un environnement de production**.
+
+🔐 En entreprise, il faut :
+- Utiliser un **framework sécurisé** (Django, Flask...)
+- Appliquer des politiques MFA + rate limiting
+- Centraliser les logs
+- Activer un WAF ou IDS
+
+---
+
+#### 📜 Licence
+
+```markdown
+© 2025 Virginie Lechene – Tous droits réservés
+Reproduction interdite sans autorisation.
+Usage pédagogique uniquement.
 
 
-🛑 Ce script n’est pas adapté pour une application en production.
-
-
-En environnement réel, il faut :
-
-utiliser un framework sécurisé (Django, Flask avec ORM…)
-
-mettre en place une politique d’authentification forte (MFA, rate limiting…)
-
-stocker les logs de façon centralisée
-
-intégrer une détection d’intrusion (WAF, SIEM…)
-
-📸 Démonstration
-
-
-Des captures d’écran d’exécution sont incluses dans le dossier /screenshots/.
-
-📄 Licence
-
-
-Projet sous licence MIT – Usage libre à but éducatif.
-
-Créé  pour la sensibilisation à la cybersécurité.
 
 
 
