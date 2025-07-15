@@ -100,9 +100,11 @@ sql
 SELECT * FROM users WHERE username='admin' --' AND password='...';
 
 
+
 > ⚠️ **Avertissement** :
 > Ce dépôt est strictement pédagogique. Les exemples fournis sont simulés dans un environnement local.
 > Toute utilisation malveillante, réelle ou non autorisée est strictement interdite.
+
 
 
 ---
