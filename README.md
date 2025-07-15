@@ -1,5 +1,6 @@
 # Sensibilisation aux injections SQL, XSS, etc.
 
+
 [![Lint Check](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml/badge.svg)](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml)
 
 
