@@ -2,6 +2,7 @@
 
 [![Lint Check](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml/badge.svg)](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml)
 
+
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/virg736/guithub-sensibilisation-injections)
 
 <p align="center">
