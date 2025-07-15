@@ -1,4 +1,13 @@
+import sqlite3
 import hashlib
+
+# Connexion à la base de données
+conn = sqlite3.connect('database.db')
+cur = conn.cursor()
+
+# Simuler des entrées utilisateur (à remplacer par input() si besoin)
+username = "admin"
+password = "password123"
 
 # Requête sécurisée
 hash_pw = hashlib.sha256(password.encode()).hexdigest()
