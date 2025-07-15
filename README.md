@@ -1,5 +1,32 @@
 # Sensibilisation aux Injections SQL, XSS, etc.
 
+<p align="center">
+<img src="sql.JPEG" alt="Illustration SQL Injection" width="600"/>
+</p>
+
+<p align="center"><i>Illustration d’une attaque de type SQL Injection</i></p>
+
+<p align="center">
+© 2025 <strong>virg736</strong> — Tous droits réservés.
+Reproduction interdite sans autorisation préalable.
+</p>
+
+<p align="center">
+<img src="https://licensebuttons.net/l/by-nd/3.0/88x31.png" alt="Creative Commons - Attribution - Pas de modification"/>
+<img src="https://img.shields.io/badge/stabilité-stable-brightgreen"/>
+</p>
+
+<p align="center">📸 <strong>Image protégée</strong> — Propriété exclusive de l’auteure</p>
+
+---
+
+# Sensibilisation aux Injections SQL, XSS, etc.
+
+> Script Python pédagogique pour détecter et bloquer des tentatives d’injection.
+> Exemples réels (simulés) et protections intégrées.
+
+
+
 Script Python pédagogique pour détecter et bloquer des tentatives d'injection.
 Exemples réels (simulés) et protections intégrées.
 
