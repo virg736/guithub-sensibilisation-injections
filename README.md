@@ -47,7 +47,7 @@ Reproduction interdite sans autorisation préalable.
 ## Avertissement
 
 Usage strictement pédagogique.
-L’auteure décline toute responsabilité en cas d’utilisation malveillante ou illégale.
+L’autrice décline toute responsabilité en cas d’usage illégal ou malveillant.
 
 ---
 
@@ -57,15 +57,15 @@ Fournir une méthode simple pour :
 
 - Comprendre les risques liés aux injections (SQL, XSS, etc.)
 - Identifier les vecteurs d’attaque classiques
-- Expérimenter un script Python de protection
+- Mettre en oeuvre un script Python de protection
 - Sensibiliser dans un cadre légal et sécurisé
 
 ---
 
 ## Fonctionnement global
 
-- Le script intercepte les saisies utilisateurs
-- Détecte les schémas malveillants (via regex et blacklist)
+- Le script intercepte les saisies des utilisateurs
+- Il détecte les schémas malveillants (via expressions régulières et liste noire )
 - Enregistre les tentatives dans une base SQLite
 - Fournit un retour neutre type “Identifiants invalides”
 - Ne divulgue aucune information technique en cas d’échec
@@ -74,12 +74,12 @@ Fournir une méthode simple pour :
 
 ## Cas d’usage
 
-Ce script peut être utilisé dans le cadre :
+Ce script peut être utilisé pour :
 
-- de démonstrations pédagogiques
-- de formations en cybersécurité
-- d’exercices de sensibilisation
-- d’expérimentations en environnements fermés
+- des démonstrations pédagogiques
+- des formations en cybersécurité
+- des exercices de sensibilisation
+- des expérimentations en environnements fermés
 
 ---
 
