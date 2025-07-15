@@ -66,10 +66,10 @@ Elle peut entraîner :
 
 ##  Exemples d’injection fictive
 
-**Exemple 1 – URL**
+Exemple 1 – URL
 ``https://site.com/page?id=1' OR '1'='1 --``
 
-**Exemple 2 – Formulaire de login**
+Exemple 2 – Formulaire de login
 Nom d'utilisateur : `admin' --`
 Mot de passe : *(vide)*
 
@@ -78,7 +78,7 @@ Requête générée :
 SELECT * FROM users WHERE username='admin' --' AND password='...';
 
 
-##  Limitations
+# Limitations
 
 
 🛑 Ce script n’est pas adapté pour une application en production.
