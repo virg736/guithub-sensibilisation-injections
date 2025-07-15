@@ -28,7 +28,7 @@ Reproduction interdite sans autorisation préalable.
 
 ---
 
-## 📑 Sommaire
+# Sommaire
 
 - [Avertissement](#avertissement)
 - [Objectif](#objectif)
@@ -41,6 +41,7 @@ Reproduction interdite sans autorisation préalable.
 - [Licence](#licence)
 - [À propos de l’usage](#à-propos-de-lusage)
 - [Droits sur les visuels](#droits-sur-les-visuels)
+
 
 ---
 
