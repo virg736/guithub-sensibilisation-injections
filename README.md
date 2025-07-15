@@ -157,7 +157,7 @@ Captures d’écran
 ---
 
 
-📌 Tu peux ajouter ici des captures pour illustrer :
+
 
 L’injection détectée
 
@@ -167,9 +167,7 @@ La réponse utilisateur
 
 
 
-![Exécution du script](./images/execution.png)
-![Tentative bloquée](./images/bloque.png)
-![Base SQLite](./images/sqlite.png)
+
 
 ---
 
