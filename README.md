@@ -28,35 +28,27 @@ Reproduction interdite sans autorisation préalable.
 
 ---
 
-Sommaire
-Avertissement
+## 📑 Sommaire
 
-Objectif
-
-Fonctionnement global
-
-Cas d’usage
-
-Exemples d’injection
-
-Script de protection intégré
-
-Prérequis
-
-Captures d’écran
-
-Licence
-
-À propos de l’usage
-
-Droits sur les visuels
+- [Avertissement](#avertissement)
+- [Objectif](#objectif)
+- [Fonctionnement global](#fonctionnement-global)
+- [Cas d’usage](#cas-dusage)
+- [Exemples d’injection](#exemples-dinjection)
+- [Script de protection intégré](#script-de-protection-intégré)
+- [Prérequis](#prérequis)
+- [Captures d’écran](#captures-décran)
+- [Licence](#licence)
+- [À propos de l’usage](#à-propos-de-lusage)
+- [Droits sur les visuels](#droits-sur-les-visuels)
 
 ---
 
-## Avertissement
+## 🛑 Avertissement
 
 Usage strictement pédagogique.
 L’autrice décline toute responsabilité en cas d’usage illégal ou malveillant.
+
 
 ---
 
