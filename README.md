@@ -113,6 +113,7 @@ SELECT * FROM users WHERE username='admin' --' AND password='...';
 ## Script de protection intégré
 
 ✅ **Le script Python (fourni dans ce dépôt) :**
+📁 [Voir le script principal `sql_protect_logger.py`](./sql_protect_logger.py)
 
 - Bloque les requêtes malicieuses
 - Détecte les patterns connus (`' OR 1=1`, `<script>`, `--`, etc.)
