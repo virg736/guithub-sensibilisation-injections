@@ -1,14 +1,6 @@
 # Sensibilisation aux injections SQL, XSS, etc.
 
-<p align="center">
-  <a href="https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml">
-    <img src="https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml/badge.svg" alt="Lint Check">
-  </a>
-  <a href="https://github.com/virg736/github-sensibilisation-injections/releases">
-    <img src="https://img.shields.io/github/v/release/virg736/github-sensibilisation-injections" alt="Release version">
-  </a>
-</p>
-
+[![Lint Check](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml/badge.svg)](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml)
 
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/virg736/guithub-sensibilisation-injections)
