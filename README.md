@@ -1,4 +1,5 @@
 # Sensibilisation aux injections SQL, XSS, etc.
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/virg736/guithub-sensibilisation-injections)
 
 <p align="center">
 <img src="sql.JPEG" alt="Illustration SQL Injection" width="600"/>
