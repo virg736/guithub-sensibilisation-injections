@@ -176,6 +176,9 @@ Le script est publié sous la licence MIT.
 
 ---
 
+ℹ️ À propos de l’usage
+
+
 Ce projet est destiné exclusivement à des fins pédagogiques :
 
 Formations en cybersécurité
@@ -183,6 +186,13 @@ Formations en cybersécurité
 Tests d’intrusion légaux (pentests)
 
 Analyse ou audit en environnement contrôlé
+
+
+
+L’autrice ne cautionne ni n’autorise l’usage en dehors d’un cadre légal strictement défini.
+
+Toute utilisation non conforme est interdite et relève de la responsabilité exclusive de l’utilisateur.
+
 
 ---
 
