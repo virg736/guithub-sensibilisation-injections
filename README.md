@@ -78,7 +78,7 @@ Requête générée :
 SELECT * FROM users WHERE username='admin' --' AND password='...';
 
 
-🧷 Limitations
+##  Limitations
 
 
 🛑 Ce script n’est pas adapté pour une application en production.
@@ -104,7 +104,7 @@ Des captures d’écran d’exécution sont incluses dans le dossier /screenshot
 
 Projet sous licence MIT – Usage libre à but éducatif.
 
-Créé avec ❤️ pour la sensibilisation à la cybersécurité.
+Créé  pour la sensibilisation à la cybersécurité.
 
 
 
