@@ -1,5 +1,4 @@
 # Sensibilisation aux injections SQL, XSS, etc.
-# Sensibilisation aux injections SQL, XSS, etc.
 
 [![Python Lint Check](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml/badge.svg)](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
