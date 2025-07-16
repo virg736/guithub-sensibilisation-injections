@@ -1,5 +1,7 @@
 # Sensibilisation aux injections SQL, XSS, etc.
 
+![Python Lint Check](https://github.com/virg736/NOM_DU_DEPOT/actions/workflows/NOM_DU_FICHIER_YML/badge.svg)
+
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/virg736/guithub-sensibilisation-injections)
 
 <p align="center">
