@@ -3,8 +3,6 @@
 ![ShellCheck](https://img.shields.io/badge/ShellCheck-passing-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Security](https://img.shields.io/badge/Sécurité-SQL_injection_protégée-brightgreen)
-
-
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/virg736/guithub-sensibilisation-injections)
 
 <p align="center">
