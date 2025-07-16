@@ -1,6 +1,12 @@
 # Sensibilisation aux injections SQL, XSS, etc.
+# Sensibilisation aux injections SQL, XSS, etc.
 
-![Python Lint Check](https://github.com/virg736/NOM_DU_DEPOT/actions/workflows/NOM_DU_FICHIER_YML/badge.svg)
+[![Python Lint Check](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml/badge.svg)](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/python-check.yml)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Security](https://img.shields.io/badge/Sécurité-SQL_injection_protégée-brightgreen)
+
+
+
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/virg736/guithub-sensibilisation-injections)
 
