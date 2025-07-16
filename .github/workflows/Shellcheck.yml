@@ -1,5 +1,5 @@
 
-name: Python Lint Check
+name: shellCheck
 
 on:
   push:
@@ -20,10 +20,10 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install flake8
-      run: pip install flake8
+    - name: Install ShellCheck
+      run: sudo apt-get install -y shellcheck
 
-    - name: Run flake8 linter
-      run: flake8 sql_protect_logger.py
+    - name: Run ShellCheck
+      run: shellcheck **/*.sh
 
      
