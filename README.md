@@ -27,9 +27,6 @@ Reproduction interdite sans autorisation préalable.
 <p align="center">📸 <strong>Image protégée</strong> — Propriété exclusive de l’auteure</p>
 
 
-
-[![ShellCheck](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/shellcheck.yml)
-
 ---
 
 # Sensibilisation aux Injections SQL, XSS, etc.
