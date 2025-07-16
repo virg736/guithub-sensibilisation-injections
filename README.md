@@ -1,7 +1,6 @@
 # Sensibilisation aux injections SQL
 
-[![ShellCheck](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/ShellCheck.yml/badge.svg)](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/ShellCheck.yml)
-
+[![ShellCheck](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/shellcheck.yml/badge.svg?branch=main&event=push)](https://github.com/virg736/github-sensibilisation-injections/actions/workflows/shellcheck.yml)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Security](https://img.shields.io/badge/Sécurité-SQL_injection_protégée-brightgreen)
