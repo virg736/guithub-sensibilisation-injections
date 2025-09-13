@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# sql_protect_logger.py – Exemple de protection contre injections SQL
+# Copyright (c) 2025 Virginie Lechene
+# SPDX-License-Identifier: MIT
+# Voir le fichier LICENSE pour plus de détails.
+#
+# ⚠️ Usage pédagogique uniquement.
+# L’auteure décline toute responsabilité en cas d’usage malveillant ou illégal.
+
 import sqlite3
 import bcrypt
 
