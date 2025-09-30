@@ -12,7 +12,7 @@
 <p align="center"><i>Illustration d’une attaque de type SQL Injection</i></p>
 
 <p align="center">
-© 2025 <strong>virg736</strong> — Tous droits réservés.
+© 2025 <strong>virg736</strong> - Tous droits réservés.
 Reproduction interdite sans autorisation préalable.
 </p>
 
@@ -21,7 +21,7 @@ Reproduction interdite sans autorisation préalable.
 <img src="https://img.shields.io/badge/stabilité-stable-brightgreen"/>
 </p>
 
-<p align="center">📸 <strong>Image protégée</strong> — Propriété exclusive de l’auteure</p>
+<p align="center">📸 <strong>Image protégée</strong> - Propriété exclusive de l’auteure</p>
 
 
 ---
@@ -212,4 +212,4 @@ Toute reproduction ou réutilisation sans autorisation préalable est interdite.
 
 
 
-© 2025 Virginie Lechene – Tous droits réservés.
+© 2025 Virginie Lechene - Tous droits réservés.
